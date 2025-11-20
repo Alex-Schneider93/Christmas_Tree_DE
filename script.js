@@ -24,7 +24,7 @@ const lyrics = [
 ];
 
 const endMessage = {
-  text: "✨✨  Alex și Carina vă urează  ✨✨<br>🎅🎅  Crăciun Fericit!  🎅🎅",time: 18.7
+  text: "✨✨  Alex wünscht dir ✨✨<br>🎅🎅  frohe Weihnachten.  🎅🎅",time: 18.7
 };
 function drawTree() {
   const width = height * 2 - 1;
@@ -95,3 +95,4 @@ document.body.addEventListener("click", () => {
 
 setInterval(drawTree, 400);
 drawTree();
+
