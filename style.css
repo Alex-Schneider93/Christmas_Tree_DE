@@ -1,0 +1,62 @@
+body {
+  background: #090909;
+  color: white;
+  font-family: Consolas, 'Courier New', monospace;
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
+}
+
+h1 {
+  color: rgb(255, 170, 0);
+  font-size: 25px;
+}
+h2 {
+  color: rgb(186, 7, 7);
+  font-size: 10px;
+}
+
+#treeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ 
+}
+
+#tree {
+  white-space: pre;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+#lyrics {
+  margin-top: 1px;
+  font-size: 18px;
+  color: #0467d8;
+  font-size: 12px;
+  text-shadow: 0 0 10px rgb(166, 2, 2);
+}
+
+#end {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 10px rgb(65, 28, 7);
+  font-weight: bold;
+}
+
+
+
+@keyframes blink {
+  0% { filter: brightness(1) hue-rotate(0deg); }
+  50% { filter: brightness(2) hue-rotate(180deg); }
+  100% { filter: brightness(1) hue-rotate(360deg); }
+}
+
+.blink {
+  display: inline-block;
+  animation: blink 1s infinite;
+}
