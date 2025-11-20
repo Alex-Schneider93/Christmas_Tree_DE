@@ -24,7 +24,7 @@ const lyrics = [
 ];
 
 const endMessage = {
-  text: "✨✨  Alex wünscht dir ✨✨<br>🎅🎅  frohe Weihnachten.  🎅🎅",time: 18.7
+  text: "✨✨  Alex wünscht dir ✨✨<br>🎅🎅  Frohe Weihnachten.  🎅🎅",time: 18.7
 };
 function drawTree() {
   const width = height * 2 - 1;
@@ -95,4 +95,5 @@ document.body.addEventListener("click", () => {
 
 setInterval(drawTree, 400);
 drawTree();
+
 
